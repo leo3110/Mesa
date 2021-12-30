@@ -1,0 +1,69 @@
+:root{
+	--corVermelho: #e03434;
+	--corTexto: #fff;
+	--corPreto: #171717;
+	--corFundo: #521f00;
+}
+html,body{
+	height: 100%;
+	background-color: var(--corPreto);
+	color: var(--corTexto);
+	margin: 0;
+}
+body{
+	-ms-overflow-style: none;
+	scrollbar-width:none;
+}
+body::-webkit-scrollbar{
+	display: none;
+}
+a,a:active,a:hover{
+	color: #000;
+	text-decoration: none;
+}
+*{
+	box-sizing: border-box;
+}
+.Body{
+	display: flex;
+	flex: auto;
+}
+.Mesa{
+  box-sizing: border-box;
+  width: 100%;
+  border: solid 3px #0f0;
+}
+.Ficha{
+  display: flex;
+  padding: 0.5em;
+  border: solid 3px var(--corVermelho);
+  font-size: 1.5em;
+}
+.Atributos{
+
+}
+.Informacao{
+  border: solid 3px #0f0;
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+
+}
+.InInformacao{
+  margin: auto;
+}
+.Footer{
+	width: 100%;
+	height: 2em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #e03434;
+	color: #000;
+}
+.💪{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
