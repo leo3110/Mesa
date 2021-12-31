@@ -3,6 +3,7 @@
 	--corTexto: #fff;
 	--corPreto: #171717;
 	--corFundo: #521f00;
+  color: var(--corFundo)
 }
 html,body{
 	height: 100%;
@@ -40,17 +41,22 @@ a,a:active,a:hover{
   font-size: 1.5em;
 }
 .Atributos{
-
+  width: 30vw;
+  justify-content: space-between;
+  font:bold 1em Courier;
 }
 .Informacao{
   border: solid 3px #0f0;
   width: 100%;
   font-size: 3rem;
   text-align: center;
-
 }
-.InInformacao{
-  margin: auto;
+.Equipamento{
+  border: solid 3px #f00;
+  width: 20%;
+}
+.Funcao{
+
 }
 .Footer{
 	width: 100%;
@@ -60,6 +66,10 @@ a,a:active,a:hover{
 	text-align: center;
 	background-color: #e03434;
 	color: #000;
+}
+i{
+  width: 2em;
+  margin: 1%;
 }
 .💪{
 	display: flex;

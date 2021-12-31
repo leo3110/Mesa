@@ -2,22 +2,32 @@
 
   <div class="Ficha">
     <div class="Atributos">
-      <div><i class="fas fa-heartbeat"></i>  Vida: <span id="vidaT">20</span>/<span id="vidaM">20</span></span></div>
-      <div><i class="fas fa-magic"></i>  Mana: <span id="manaT">20</span>/<span id="manaM">20</span>  </span></div>
-      <div><i class="fas fa-heart"></i>  Vigor: <span id="vigor">  </span></div>
-      <div><i class="fas fa-fist-raised"></i>  Força: <span id="forca">  </span></div>
-      <div><i class="fas fa-hand-point-right"></i>  Destreza: <span id="destr">  </span></div>
-      <div><i class="fas fa-wind"></i>  Agilidade: <span id="agili">  </span></div>
-      <div><i class="fas fa-shield-alt"></i>  Resistencia: <span id="resis">  </span></div>
-      <div><i class="fas fa-brain"></i>  Inteligência: <span id="intel">  </span></div>
-      <div><i class="fas fa-scroll"></i>  Conhecimento: <span id="conhe">  </span></div>
+      <div><i class="fas fa-heartbeat"></i>Vid: <span id="vidaT">20</span>/<span id="vidaM">20</span></span></div>
+      <div><i class="fas fa-magic"></i>Man: <span id="manaT">20</span>/<span id="manaM">20</span>  </span></div>
+      <div><i class="fas fa-heart"></i>Vig: <span id="vigor">99</span></div>
+      <div><i class="fas fa-fist-raised"></i>For: <span id="forca">99</span></div>
+      <div><i class="fas fa-hand-point-right"></i>Des: <span id="destr">99</span></div>
+      <div><i class="fas fa-wind"></i>Agi: <span id="agili">99</span></div>
+      <div><i class="fas fa-shield-alt"></i>Res: <span id="resis">99</span></div>
+      <div><i class="fas fa-brain"></i>Int: <span id="intel">99</span></div>
+      <div><i class="fas fa-scroll"></i>Con: <span id="conhe">99</span></div>
     </div>
     <div class="Informacao">
-      <span id="nome">Nada - Nada</span>
+      <span id="nome">Finn - Humano</span>
       <span id="nivel">1</span>
-      <table>
-
-      </table>
+      <div class="💪">
+        <div class="Equipamento">
+          <div class="">
+            <i class="fas fa-fist-raised"></i>
+          </div>
+          <div class="">
+            <button class="Funcao">Ação 1</button>
+            <button class="Funcao">Ação 1</button>
+            <button class="Funcao">Ação 1</button>
+            <button class="Funcao">Ação 1</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <div class="Dados">
