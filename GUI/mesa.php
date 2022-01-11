@@ -18,6 +18,16 @@
           $equipamento = new Equipamento();
           $equipamento->equip();
           $equipamento->equip();
+          $equipamento->equip();
+          $equipamento->equip();
+          $equipamento->equip();
+          $equipamento->equip();
+          $equipamento->equip();
+          $equipamento->equip();
+          $equipamento->equip();
+          $equipamento->equip();
+          $equipamento->equip();
+          $equipamento->equip();
          ?>
       </div>
     </div>
