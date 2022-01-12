@@ -7,17 +7,15 @@
         $ficha->atrib();
        ?>
     </div>
-    <div class="Informacao">
+    <div class="Informacao ">
       <h1>
         <span id="nome">Finn - Humano</span>
         <span id="nivel">1</span>
       </h1>
-      <div class="💪">
+      <div class="💪 👌">
         <?php
           include './Class/Equipamento.php';
           $equipamento = new Equipamento();
-          $equipamento->equip();
-          $equipamento->equip();
           $equipamento->equip();
           $equipamento->equip();
           $equipamento->equip();

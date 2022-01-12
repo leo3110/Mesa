@@ -17,7 +17,7 @@ class Equipamento
   public function equip(){
     echo "<div class='Equipamento'>";
     echo "<div class=''>$this->nome</div>";
-    echo "<div class='Botoes'>";
+    echo "<div class='Botoes 💪 👌'>";
         foreach ($this->acao as $key => $value) {
           if (isset($this->bonus["$value"])) {
             echo "<button class='Funcao' dado='".$value."' bonus='".$this->bonus["$value"]."'>$key</button>";

@@ -2,6 +2,7 @@
 	--corVermelho: #e03434;
 	--corTexto: #fff;
 	--corPreto: #171717;
+  --corCinza: #bbb;
 	--corFundo: #521f00;
   color: var(--corFundo)
 }
@@ -45,18 +46,19 @@ a,a:active,a:hover{
 }
 .Ficha{
   padding: 0.5em;
-  border: solid 1px var(--corVermelho);
+  border: solid 1px var(--corCinza);
   border-radius: 5px;
   font-size: 1.5em;
 }
 .Atributos{
-  border: solid 1px var(--corVermelho);
+  border: solid 1px var(--corCinza);
   border-radius: 5px;
-  width: 10em;
+  width: 11em;
   font:bold 1em Courier;
+  height: auto;
 }
 .AtribItem{
-  margin: .3em;
+  margin: 1em;
 }
 .Informacao{
   width: auto;
@@ -65,9 +67,10 @@ a,a:active,a:hover{
 .Equipamento{
   width: auto;
   aspect-ratio:1;
-  border: solid 1px var(--corVermelho);
+  border: solid 1px var(--corCinza);
   border-radius: 5px;
   font-size: 1.5em;
+  margin: 5px;
 }
 .Funcao{
   display: block;
@@ -77,8 +80,6 @@ a,a:active,a:hover{
   margin: 0.5rem;
 }
 .Botoes{
-  margin: auto;
-  align-items: baseline;
   padding: 0;
 }
 .Dados{
@@ -100,5 +101,7 @@ h1{
 	align-items: center;
 	align-content: center;
 	justify-content: space-around;
+}
+.👌{
   flex-wrap: wrap;
 }
