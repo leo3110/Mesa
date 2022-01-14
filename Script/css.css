@@ -4,7 +4,6 @@
 	--corPreto: #171717;
   --corCinza: #bbb;
 	--corFundo: #521f00;
-  color: var(--corFundo)
 }
 html,body{
 	height: 100%;
@@ -45,7 +44,7 @@ a,a:active,a:hover{
   margin: 1em;
 }
 .Ficha{
-  padding: 0.5em;
+  padding: 1em .5em;
   border: solid 1px var(--corCinza);
   border-radius: 5px;
   font-size: 1.5em;
@@ -53,34 +52,41 @@ a,a:active,a:hover{
 .Atributos{
   border: solid 1px var(--corCinza);
   border-radius: 5px;
-  width: 11em;
+  min-width: 10em;
   font:bold 1em Courier;
-  height: auto;
+  padding: 3em 0;
+  height: 50%;
 }
 .AtribItem{
-  margin: 1em;
+  margin: 0 auto;
 }
 .Informacao{
   width: auto;
   text-align: center;
+  margin: 5px;
+}
+.Info{
+  font-size: 5em;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-bottom: solid 1px var(--corCinza);
 }
 .Equipamento{
-  width: auto;
+  max-width: 15%;
   aspect-ratio:1;
   border: solid 1px var(--corCinza);
   border-radius: 5px;
-  font-size: 1.5em;
-  margin: 5px;
-}
-.Funcao{
-  display: block;
-  border: solid 3px #fff;
-  border-radius: 50% 0 / 100%;
-  font-size: 1rem;
-  margin: 0.5rem;
+  font-size: 1.7em;
+  margin: 1rem 0;
+  padding: 10px;
 }
 .Botoes{
   padding: 0;
+}
+.Funcao{
+  font-size: 1rem;
+  width: 50%;
+  margin: 1em auto;
 }
 .Dados{
   width: 100%;
@@ -96,12 +102,22 @@ i{
 h1{
   margin: 0;
 }
-.💪{
+.Flex{
 	display: flex;
-	align-items: center;
 	align-content: center;
+}
+.Flex .Wrap{
+  flex-wrap: wrap;
+}
+.Flex .CentroY{
+	align-items: center;
+}
+.Flex .Col{
+  flex-direction: column;
+}
+.Flex .SAround{
 	justify-content: space-around;
 }
-.👌{
-  flex-wrap: wrap;
+.Flex .SBetween{
+	justify-content: space-between;
 }
