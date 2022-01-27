@@ -5,7 +5,7 @@
 class Equipamento
 {
   private $nome = 'espada magica';
-  private $acao = ['atacar'=>'for','defender'=>'res','aparar'=>'des','conjurar'=>'int'];
+  private $acao = ['ATK'=>'for','DEF'=>'res','APR'=>'des','CJR'=>'int'];
   private $bonus = ['for'=>1,'int'=>1];
   //
   // public function info(){
@@ -15,15 +15,15 @@ class Equipamento
   //         <div class='Flex'>";
   // }
   public function equip(){
-    echo "<div class='Equipamento Flex Col SAround'>";
-    echo "<div class='EquipamentoNome'>$this->nome</div>";
-    echo "<div class='Botoes Flex Wrap '>";
+    echo "<div class='mx-1'>";
+    echo "<div class=''>$this->nome</div>";
+    echo "<div class=''>";
         foreach ($this->acao as $key => $value) {
           if (isset($this->bonus["$value"])) {
-            echo "<button class='Funcao' dado='".$value."' bonus='".$this->bonus["$value"]."'>$key</button>";
+            echo "<button class='' dado='".$value."' bonus='".$this->bonus["$value"]."'>$key</button>";
           }
           else {
-            echo "<button class='Funcao' dado='".$value."' bonus='0'>$key</button>";
+            echo "<button class='' dado='".$value."' bonus='0'>$key</button>";
           }
         }
     echo "</div>";

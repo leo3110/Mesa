@@ -10,13 +10,12 @@
     private $equip = ['espada1','espada2'];
 
     function atrib(){
-      echo "<div class='AtribItem'>Vid: <span id='vidaT'>20</span>/<span id='vidaM'>20</span></span></div>";
-      echo "<div class='AtribItem'>Man: <span id='manaT'>20</span>/<span id='manaM'>20</span>  </span></div>";
+      echo "<div class=''>Vid: <span id='vidaT'>20</span>/<span id='vidaM'>20</span></span></div>";
+      echo "<div class=''>Man: <span id='manaT'>20</span>/<span id='manaM'>20</span>  </span></div>";
       foreach ($this->atrib as $key => $value) {
-        echo "<div class='AtribItem'>$key : $value</div>";
+        echo "<div class=''>$key:$value <i atrib='$key' value='$value' class='fas fa-dice-d20'></i></div>";
       }
     }
-    function equip(){
-      echo "string";
+    function testAtrib(){
     }
   }

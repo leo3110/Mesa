@@ -7,3 +7,8 @@ function Moeda(){
   if (moeda) {document.getElementById("resultado").innerHTML = "Cara";}
   else {document.getElementById("resultado").innerHTML = "Coroa";}
 }
+$(function(){
+  $("i").click(function(){
+    $("#resultado").text(Math.floor(Math.random()*20)+1+$(this).attr('atrib'));
+  });
+});

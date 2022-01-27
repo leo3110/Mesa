@@ -22,12 +22,6 @@ a,a:active,a:hover{
 	color: #000;
 	text-decoration: none;
 }
-*{
-	box-sizing: border-box;
-}
-.Body{
-	flex: auto;
-}
 .Footer{
   position: fixed;
   display: block;
@@ -47,60 +41,58 @@ a,a:active,a:hover{
   padding: 1em .5em;
   border: solid 1px var(--corCinza);
   border-radius: 5px;
-  font-size: 1.5em;
 }
 .Atributos{
   border: solid 1px var(--corCinza);
   border-radius: 5px;
   min-width: 10em;
-  font:bold 1em Courier;
-  padding: 3em 0;
-  height: 50%;
+  font: bold 200rem Courier;
+  padding: 1em 0;
+  height: 100%;
 }
 .AtribItem{
   margin: 0 auto;
+}
+.AtribItem *{
+  height: 100%;
+  display: inline;
 }
 .Informacao{
   width: auto;
   text-align: center;
   margin: 5px;
+  font-size: 100rem;
 }
-.Info{
+#Ident{
   font-size: 5em;
-  width: 100%;
-  margin-bottom: 1rem;
+  width: 97%;
+  margin: 1rem auto;
   border-bottom: solid 1px var(--corCinza);
 }
 .Equipamento{
-  max-width: 15%;
+  max-width: 20%;
   aspect-ratio:1;
   border: solid 1px var(--corCinza);
   border-radius: 5px;
   font-size: 1.7em;
-  margin: 1rem 0;
+  margin: 1rem 5px;
   padding: 10px;
 }
-.Botoes{
-  padding: 0;
-}
 .Funcao{
-  font-size: 1rem;
-  width: 50%;
-  margin: 1em auto;
+  margin: 0 auto;
+  width: 30%;
+  aspect-ratio:1;
+  font-size: 25%;
+}
+.Baixo{
+  width: 100%;
 }
 .Dados{
-  width: 100%;
-  justify-content: flex-start !important;
+
 }
 .Resultado{
   display: inline-block;
-}
-i{
-  width: 2em;
-  margin: 1%;
-}
-h1{
-  margin: 0;
+  font-size: 200rem;
 }
 .Flex{
 	display: flex;
@@ -115,9 +107,15 @@ h1{
 .Flex .Col{
   flex-direction: column;
 }
-.Flex .SAround{
+.Flex .JCC{
+  justify-content: center;
+}
+.Flex .JCSA{
 	justify-content: space-around;
 }
-.Flex .SBetween{
+.Flex .JCSB{
 	justify-content: space-between;
+}
+.Flex .Wrap{
+  flex-wrap: wrap;
 }
